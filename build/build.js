@@ -1,6 +1,7 @@
 'use strict'
 require('./check-versions')()
 
+// var env = process.env.NODE_ENV === 'production' ? config.build.proEnv : config.build.proSit;
 process.env.NODE_ENV = 'production'
 
 const ora = require('ora')

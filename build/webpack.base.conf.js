@@ -40,7 +40,8 @@ module.exports = {
       'api': resolve(__dirname, '../src/api'),
       'utils': resolve(__dirname, '../src/utils'),
       'store': resolve(__dirname, '../src/store'),
-      'router': resolve(__dirname, '../src/router')
+      'router': resolve(__dirname, '../src/router'),
+      'service': resolve(__dirname, '../src/service')
     }
   },
   module: {
